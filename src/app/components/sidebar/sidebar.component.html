@@ -1,0 +1,212 @@
+<div class="col-sm-3 col-md-3">
+  <div class="panel-group" id="accordion">
+       <div class="panel panel-default">
+          <div class="panel-heading" [routerLinkActive]="['active']" [routerLinkActiveOptions]="{exact:true}">
+              <h4 class="panel-title"><a [routerLink]="['/about']"><span class="glyphicon glyphicon-user
+">
+                  </span>About</a>
+              </h4>
+          </div>
+      </div>
+      <div class="panel panel-default">
+          <div class="panel-heading" [routerLinkActive]="['active']" [routerLinkActiveOptions]="{exact:true}">
+              <h4 class="panel-title"><a [routerLink]="['/features']"><span class="glyphicon glyphicon-tasks">
+                  </span>Features</a>
+              </h4>
+          </div>
+      </div>
+
+      <div class="panel panel-default">
+          <div class="panel-heading" [routerLinkActive]="['active']" [routerLinkActiveOptions]="{exact:true}" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" >
+              <h4 class="panel-title"><a [routerLink]="['/tech-stack']"><span class="glyphicon glyphicon glyphicon-th
+">
+                  </span>Technology Stack</a>
+              </h4>
+          </div>
+          <div id="collapseThree" class="panel-collapse collapse">
+              <div class="panel-body">
+                  <table class="table">
+                      <tr>
+                          <td>
+                              <a href="#rpi" target="_self">RaspberryPI Device</a>
+                          </td>
+                      </tr>
+                      <tr>
+                          <td>
+                              <a href="#rpi" target="_self">Temperature Sensor Device</a>
+                          </td>
+                      </tr>
+                      <tr>
+                          <td>
+                              <a href="#rpi" target="_self">Zephyr Device</a>
+                          </td>
+                      </tr>
+                      <tr>
+                          <td>
+                              <a href="#iot">IOT Gateway</a>
+                          </td>
+                      </tr>
+                      <tr>
+                          <td>
+                              <a href="#kebana">Kebana</a>
+                          </td>
+                      </tr>
+                      <tr>
+                          <td>
+                              <a href="#spark">Spark</a>
+                          </td>
+                      </tr>
+                      <tr>
+                          <td>
+                              <a href="#kafka">Kafka</a>
+                          </td>
+                      </tr>
+                      <tr>
+                          <td>
+                              <a href="#mongodb">MongoDB</a>
+                          </td>
+                      </tr>
+                      <tr>
+                          <td>
+                              <a href="#nodejs">NodeJs</a>
+                          </td>
+                      </tr>
+                      <tr>
+                          <td>
+                              <a href="#javaspring">Java Spring</a>
+                          </td>
+                      </tr>
+                  </table>
+              </div>
+          </div>
+      </div>
+
+      <div class="panel panel-default">
+          <div class="panel-heading" data-toggle="collapse" data-parent="#accordion" href="#rta" >
+             <h4 class="panel-title"><a [routerLink]="['/tech-stack']"><span class="	glyphicon glyphicon-list-alt
+      ">
+                  </span>RealTimeAnalytics</a>
+             </h4>
+          </div>
+          <div id="rta" class="panel-collapse collapse">
+             <div class="panel-body">
+                  <table class="table">
+                      <tr>
+                          <td>
+                              <a href="https://github.com/Welloculus/RealTimeAnalytics/wiki" target="_blank">About Real Time Analytics</a>
+                          </td>
+                      </tr>
+                  </table>
+             </div>
+          </div>
+      </div>
+
+      <div class="panel panel-default">
+          <div class="panel-heading" data-toggle="collapse" data-parent="#accordion" href="#apig" >
+             <h4 class="panel-title"><a [routerLink]="['/tech-stack']"><span class="	glyphicon glyphicon-list-alt
+      ">
+                  </span>APIGateway</a>
+             </h4>
+          </div>
+          <div id="apig" class="panel-collapse collapse">
+             <div class="panel-body">
+                  <table class="table">
+                      <tr>
+                          <td>
+                              <a href="https://github.com/Welloculus/APIGateway/wiki" target="_blank">API Gateway Details</a>
+                          </td>
+                      </tr>
+                  </table>
+             </div>
+          </div>
+      </div>
+
+       <div class="panel panel-default">
+           <div class="panel-heading" data-toggle="collapse" data-parent="#accordion" href="#cockpit" >
+              <h4 class="panel-title"><a [routerLink]="['/tech-stack']"><span class="	glyphicon glyphicon-list-alt
+       ">
+ </span>Cockpit</a>
+              </h4>
+           </div>
+           <div id="cockpit" class="panel-collapse collapse">
+              <div class="panel-body">
+                   <table class="table">
+                       <tr>
+                           <td>
+                               <a href="https://github.com/Welloculus/Cockpit/wiki" target="_blank">Cockpit</a>
+                           </td>
+                       </tr>
+                   </table>
+              </div>
+           </div>
+       </div>
+
+
+         <div class="panel panel-default">
+             <div class="panel-heading" data-toggle="collapse" data-parent="#accordion" href="#iotg" >
+                <h4 class="panel-title"><a [routerLink]="['/tech-stack']"><span class="	glyphicon glyphicon-list-alt
+         ">
+   </span>IOTGateway</a>
+                </h4>
+             </div>
+             <div id="iotg" class="panel-collapse collapse">
+                <div class="panel-body">
+                     <table class="table">
+                         <tr>
+                             <td>
+                                 <a href="https://github.com/Welloculus/IOTGateway/wiki" target="_blank">Cockpit</a>
+                             </td>
+                         </tr>
+                     </table>
+                </div>
+             </div>
+         </div>
+
+
+           <div class="panel panel-default">
+               <div class="panel-heading" data-toggle="collapse" data-parent="#accordion" href="#rpidi" >
+                  <h4 class="panel-title"><a [routerLink]="['/tech-stack']"><span class="	glyphicon glyphicon-list-alt
+           ">
+     </span>RaspberryPiDevice</a>
+                  </h4>
+               </div>
+               <div id="rpidi" class="panel-collapse collapse">
+                  <div class="panel-body">
+                       <table class="table">
+                           <tr>
+                               <td>
+                                   <a href="https://github.com/Welloculus/RaspberryPiDeviceIntegration/wiki" target="_blank">Install OS In Raspberry Pi</a>
+                               </td>
+                           </tr>
+                           <tr>
+                               <td>
+                                   <a href="https://github.com/Welloculus/RaspberryPiDeviceIntegration" target="_blank">Temperature Device Integration with Raspberry Pi</a>
+                               </td>
+                           </tr>
+                       </table>
+                  </div>
+               </div>
+           </div>
+
+           <div class="panel panel-default">
+               <div class="panel-heading" data-toggle="collapse" data-parent="#accordion" href="#mobileapp" >
+                  <h4 class="panel-title"><a [routerLink]="['/tech-stack']"><span class="	glyphicon glyphicon-list-alt
+           ">
+     </span>MobileAppForPatient</a>
+                  </h4>
+               </div>
+               <div id="mobileapp" class="panel-collapse collapse">
+                  <div class="panel-body">
+                       <table class="table">
+                           <tr>
+                               <td>
+                                   <a href="https://github.com/Welloculus/MobileAppForPatient/wiki" target="_blank">Mobile App For Patient</a>
+                               </td>
+                           </tr>
+                       </table>
+                  </div>
+               </div>
+           </div>
+
+  </div>
+</div>
