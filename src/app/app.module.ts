@@ -11,11 +11,13 @@ import { DashboardComponent } from './components/dashboard/dashboard.component';
 import { SidebarComponent } from './components/sidebar/sidebar.component';
 import { FeaturesComponent } from './components/features/features.component';
 import { TechStackComponent } from './components/tech-stack/tech-stack.component';
+import { ContactComponent } from './components/contact/contact.component';
 
 const appRoutes: Routes = [
 { path:'about', component: DashboardComponent },
 { path:'features', component: FeaturesComponent },
 { path:'tech-stack', component: TechStackComponent  },
+{ path:'contact-us', component: ContactComponent },
 { path: '', redirectTo: '/about', pathMatch: 'full' },
 { path:'', component: FooterComponent  },
 { path: '**', redirectTo: '/about', pathMatch: 'full' }
@@ -29,7 +31,8 @@ const appRoutes: Routes = [
     DashboardComponent,
     SidebarComponent,
     FeaturesComponent,
-    TechStackComponent
+    TechStackComponent,
+    ContactComponent
   ],
   imports: [
     BrowserModule,
