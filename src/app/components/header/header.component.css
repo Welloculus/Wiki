@@ -1,0 +1,14 @@
+@media (max-width: 767px) {
+     .bordersection{
+          display: none;
+     }
+}
+
+.right-menu{
+     font-weight: bold;
+}
+.bordersection{
+     border-right: 1px dotted;
+     height: 40px;
+     margin-top: 5px;
+}
