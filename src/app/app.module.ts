@@ -12,11 +12,15 @@ import { SidebarComponent } from './components/sidebar/sidebar.component';
 import { FeaturesComponent } from './components/features/features.component';
 import { TechStackComponent } from './components/tech-stack/tech-stack.component';
 import { ContactComponent } from './components/contact/contact.component';
+import { HippaChecklistComponent } from './components/hippa-checklist/hippa-checklist.component';
+import { HippaForWelloculusComponent } from './components/hippa-for-welloculus/hippa-for-welloculus.component';
 
 const appRoutes: Routes = [
 { path:'about', component: DashboardComponent },
 { path:'features', component: FeaturesComponent },
 { path:'tech-stack', component: TechStackComponent  },
+{ path:'hippa-checklist', component: HippaChecklistComponent },
+{ path:'hippa-for-welloculus', component: HippaForWelloculusComponent },
 { path:'contact-us', component: ContactComponent },
 { path: '', redirectTo: '/about', pathMatch: 'full' },
 { path:'', component: FooterComponent  },
@@ -32,7 +36,9 @@ const appRoutes: Routes = [
     SidebarComponent,
     FeaturesComponent,
     TechStackComponent,
-    ContactComponent
+    ContactComponent,
+    HippaChecklistComponent,
+    HippaForWelloculusComponent
   ],
   imports: [
     BrowserModule,

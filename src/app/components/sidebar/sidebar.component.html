@@ -26,6 +26,24 @@
       </div>
 
       <div class="panel panel-default">
+          <div class="panel-heading" [routerLinkActive]="['active']" [routerLinkActiveOptions]="{exact:true}">
+              <h4 class="panel-title"><a [routerLink]="['/hippa-checklist']"><span class="glyphicon glyphicon glyphicon-th
+">
+                  </span>HIPAA Checklists</a>
+              </h4>
+          </div>
+      </div>
+
+      <div class="panel panel-default">
+          <div class="panel-heading" [routerLinkActive]="['active']" [routerLinkActiveOptions]="{exact:true}">
+              <h4 class="panel-title"><a [routerLink]="['/hippa-for-welloculus']"><span class="glyphicon glyphicon glyphicon-th
+">
+                  </span>HIPAA For Welloculus</a>
+              </h4>
+          </div>
+      </div>
+
+      <div class="panel panel-default">
           <div class="panel-heading" data-toggle="collapse" data-parent="#accordion" href="#wellie" >
              <h4 class="panel-title"><a [routerLink]="['/tech-stack']">
                   <span class="glyphicon glyphicon-list-alt"></span>Wellie</a>

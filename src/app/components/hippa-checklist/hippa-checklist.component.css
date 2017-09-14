@@ -1,0 +1,45 @@
+.que{
+/*    background-color: #ffffff; */
+    font-weight: bold;
+}
+.well{
+     background-color: #ffffff;
+     padding: 0px;
+     border: 0px;
+}
+.badge{
+    line-height: 1.3;
+    background-color: inherit;
+   font-size: 15px;
+   color: #151414;
+}
+.mrgnbtm{
+     margin-bottom: 75px;
+}
+.parent-header{
+   color: white;
+   background-color: dimgrey;
+}
+.badge.btn-danger{
+     background-color: #d9534f;
+}
+.sublist li{
+     margin-bottom: 5px;
+}
+.sublist li font{
+     font-weight: bold;
+}
+.sclist h4 {
+    border-top: 1px solid grey;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom: 1px solid grey;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-color: #e6e6e6;
+    height: 30px;
+    line-height: 1.5;
+}
+.scpb{
+    background-color: #ffffff;
+}

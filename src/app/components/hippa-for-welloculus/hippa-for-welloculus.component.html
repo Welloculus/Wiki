@@ -1,0 +1,186 @@
+<div class="col-sm-9 col-md-9">
+  <div class="well">
+      <div>
+
+                    <div class="panel panel-default">
+                         <div class="panel-heading que parent-header">HIPAA For Welloculus</div>
+                         <div class="panel-body scpb">
+                              HIPAA or Health Insurance Portability and Accountability Act was passed by US Congress in 1996.  It outlines the requirements for the management, storage and transmission of protected health information (PHI) in physical and digital form. For healthcare related entities in the US, certain guidelines must be followed. Under Welloculus, we have summarized these guidelines for a simplified approach. These guidelines are what we at Welloculus understand by HIPAA compliance
+                         </div>
+                    </div>
+
+                    <div class="panel panel-default">
+                         <div class="panel-heading que parent-header">Some important definitions as per Welloculus</div>
+                         <div class="panel-body scpb">
+                              <div class="heading-text">
+                                   Here are some key definitions and descriptions that are most important part of HIPAA and what we at Welloculus understand about these components that can be the subject of most frequently asked questions about HIPAA.
+                              </div>
+
+                              <div class="sclist">
+                                   <h4><span class="badge">PHI (Protected Health Information)</span></h4>
+                                   Any information in a medical record that can be used to identify an individual, and that was created, used, or disclosed in the course of providing a health care service, such as a diagnosis or treatment, comprises PHI.
+                                   <br>
+                                   For example, PHI can be:
+                                   <ul class="sublist">
+                                        <li>Lab test results</li>
+                                        <li>Personal information such as phone records</li>
+                                        <li>Billing information from healthcare provider</li>
+                                        <li>Emails containing health details or prescriptions</li>
+                                        <li>Hospital records</li>
+                                   </ul>
+                              </div>
+
+                              <div class="sclist">
+                                   <h4><span class="badge">Covered Entity</span></h4>
+                                   Anyone who provides treatment, payment and operations in healthcare is a covered entity. According to the U.S. Department of Health & Human Services (HHS) followings are all Covered Entities:
+                                   <ol class="sublist">
+                                        <li>Healthcare Providers</li>
+                                        <li>Health Plans</li>
+                                        <li>Healthcare Clearinghouses</li>
+                                   </ol>
+                                   <ol class="sublist">
+                                        <li><font>Healthcare Providers:</font>Healthcare Providers are exactly who you might think hospitals, doctors, clinics, psychologists, dentists, chiropractors, nursing homes, and pharmacies are considered Healthcare Providers and need to be HIPAA compliant.</li>
+                                        <li><font>Health Plans:</font>Health Plans include health insurance companies, HMOs, company health plans, Medicare, and Medicaid. In addition, employers and schools that handle PHI in order to enroll their employees and students in health plans fall under the definition of a Health Plan and need to be HIPAA compliant.</li>
+                                        <li><font>Healthcare Clearinghouses:</font>Healthcare Clearinghouses takes in information from a healthcare entity, puts the data into a standard format, and then spits the information back out to another healthcare entity. They need to be HIPAA compliant too.</li>
+                                   </ol>
+                              </div>
+
+                              <div class="sclist">
+                                   <h4><span class="badge">Business Associate</span></h4>
+                                   A Business Associate is a vendor or subcontractor who has access to PHI. The vendors can be data storage or document storage services (doesn’t matter if they can view the PHI that they maintain), providers of data transmission services, portals or other interfaces created on behalf of Covered Entities that allow patients to share their data with the Covered Entity, and electronic heath information exchanges.
+                                   <br><br>
+                                   If a Business Associate (vendor) delegates a covered function or activity to someone, then that entity is considered a subcontractor.
+                                   <br><br>
+                                   Some examples of potential Business Associates:
+                                   <br><br>
+                                   <ul class="sublist">
+                                        <li>Data processing firms or software companies that may be exposed to or use PHI</li>
+                                        <li>Medical equipment service companies handling equipment that holds PHI</li>
+                                        <li>Shredding and/or documentation storage companies</li>
+                                        <li>Consultants hired to conduct audits, perform coding reviews, etc.</li>
+                                        <li>Lawyers</li>
+                                        <li>External auditors or accountants</li>
+                                        <li>Professional translator services</li>
+                                        <li>Answering services</li>
+                                        <li>Accreditation agencies</li>
+                                        <li>e-prescribing services</li>
+                                        <li>Medical transcription services</li>
+                                   </ul>
+                              </div>
+
+                              <div class="sclist">
+                                   <h4><span class="badge">Who needs to be HIPAA Compliant?</span></h4>
+                                   Both Covered entities and their business associates. If PHI (Protected Health Information) is handled, stored or transmitted to or from a covered entity by a body, then that body needs to be HIPAA compliant.
+                              </div>
+
+                         </div>
+                    </div>
+
+                    <div class="panel panel-default">
+                         <div class="panel-heading que parent-header">Software development guidelines as understood by Welloculus</div>
+                         <div class="panel-body scpb">
+                              <div class="heading-text">
+                                   Certain implementation standards are designated as required, while others are called “addressable.” If the implementation specification is “addressable,” it’s up to the Covered Entity’s discretion whether or not to implement the standard.
+                              </div>
+
+                              <div class="sclist">
+                                   <h4><span class="badge">Required</span></h4>
+                                   <ol class="sublist">
+                                        <li><font>Unique User Identification:</font>Establish procedures to assign a unique name and/or number to identify and track user identity and usage.</li>
+                                        <li><font>Emergency Access Procedure:</font>Establish procedures for obtaining necessary EPHI in an emergency.</li>
+                                        <li><font>Audit Controls:</font>Implement hardware, software, or other mechanisms that will record and examine activity in the systems containing EPHI.</li>
+                                        <li><font>Person or Entity Authentication:</font>Implement procedures to verify that a user requesting access to EPHI is the correct user.</li>
+                                   </ol>
+                              </div>
+
+                              <div class="sclist">
+                                   <h4><span class="badge">Addressable</span></h4>
+                                   <ol class="sublist">
+                                        <li><font>Automatic Logoff:</font>Establish procedures to automatically log users off after a certain period of inactivity.</li>
+                                        <li><font>Encryption and Decryption:</font>Establish policies to ensure encryption and decryption of EPHI.</li>
+                                        <li><font>Mechanism to Authenticate Electronic Protected Health Information:</font>Implement electronic mechanisms to corroborate that EPHI has not been inappropriately altered or destroyed. For example we should validates the integrity of each version by using a hash-based message authentication code (HMAC), rendering it impossible to modify files without access to the private encryption keys.</li>
+                                        <li><font>Transmission Security - Integrity Controls:</font>Implement security measures to ensure that electronically transmitted EPHI is not improperly modified without detection.</li>
+                                        <li><font>Transmission Security - Encryption:</font>Implement a mechanism to encrypt EPHI whenever appropriate. We can encrypt the files before they are transmitted via secure HTTP (HTTPS), thereby protecting the files in transit and at rest. The encryption scheme can be employ an HMAC to ensure that the data cannot be modified or destroyed without detection.</li>
+                                        <li>Implement a mechanism that data should not be lost, it should be backed up and can be recovered.</li>
+                                        <li>Implement a mechanism to encrypt EPHI if it is being stored or archived.</li>
+                                        <li>Implement a mechanism that EPHI can be permanently disposed of when no longer needed.</li>
+                                   </ol>
+                              </div>
+
+                              <div class="sclist">
+                                   <h4><span class="badge">HIPAA hosting and compliance</span></h4>
+                                   HIPAA hosting refers to website, application or data storage and hosting services that comply with the physical safeguard requirements of the HIPAA security rule. Hosting your application in a HIPAA compliant hosting environment such as Amazon AWS or Firehost does not make your application HIPAA compliant as they only address the physical safeguard requirements of the HIPAA security rule.
+                                   <br><br>
+                                   HIPAA compliant hosting providers typically provide two main aspects of HIPAA compliance:
+                                   <br><br>
+
+                                   <ul class="sublist">
+                                        <li>They sign a Business Associate Agreement with you, which is required by service providers managing and handling HIPAA protected information.</li>
+                                        <li>They address many of the Physical Safeguard requirements of the HIPAA Security rule.</li>
+                                   </ul>
+                              </div>
+
+                              <div class="sclist">
+                                   <h4><span class="badge">High-Availability and Redundancy</span></h4>
+                                   It’s best to design your hosting environment with at least 2 web servers behind a load balancer and 2 database servers on an active/passive failover setup.
+                              </div>
+
+                              <div class="sclist">
+                                   <h4><span class="badge">User Communication</span></h4>
+                                   The very premise of the HIPAA is to protect sensitive information, so it is paramount that you consider how you will communicate with subscribers once they are using your app.
+                                   <br><br>
+
+                                   <ul class="sublist">
+                                        <li><font>Email:</font><br>Emails are usually not compliant with HIPAA as they often lack the ability to encrypt their contents. Therefore sending information that may contain PHI via email is a HIPAA violation.</li>
+                                        <li><font>Database API/Calls:</font><br>If your application is relying on data from any covered entity (such as a doctor’s office) it will have to be compliant. Same goes for any integration you need to do with a business associate of a covered entity.
+                                             <br><br>
+                                             If your app is not compliant these covered entities will not be able to grant your app access to make API or database calls, nor can you search and read anything within their database.
+                                        </li>
+                                   </ul>
+                              </div>
+
+                              <div class="sclist">
+                                   <h4><span class="badge">Push Notifications</span></h4>
+                                   Any time you’re making an automated, outbound push message (whether it be mobile, email, or automated calling) in an application to notify users of updates and changes, run the risk of violating the privacy regulations outlined in HIPAA.
+                                   <br><br>
+                                   If you’re using notifications in your mobile app, it’s critical that you do not include any PHI in any push notifications from your app.
+                              </div>
+
+                              <div class="sclist">
+                                   <h4><span class="badge">Using the lock screen</span></h4>
+                                   In order to secure data on an iPhone (for example), users must use a passcode to lock the handset when not in use. You can’t control whether a user enables this functionality, but you can recommend that users who install your app enable the feature.
+                                   <br><br>
+                                   An easy way to do this is suggest that the user turns on the passcode lock setting in your welcome email to new account holders.
+                              </div>
+
+                         </div>
+                    </div>
+
+                    <div class="panel panel-default mrgnbtm">
+                         <div class="panel-heading que parent-header">Software quality assurance guidelines as understood by Welloculus</div>
+                         <div class="panel-body scpb">
+
+                              <div class="sclist">
+                                   <ol class="sublist">
+                                        <li>To identify any weakness currently exist in the system owned by the company or organization. This can be done using a tool which automatically scans the web application to look for security issues known as a web vulnerability scanner. Some of the most common of these are SQL Injection, Cross Site Scripting and Denial of Service vulnerabilities.</li>
+                                        <li>To check the procedures implemented for assigning a unique name.</li>
+                                        <li>To check system has properly implemented a procedure to identify and track user identity and usage.</li>
+                                        <li>To check the authenticity mechanism implemented in the system for the authorized user to access the EPHI in the event of emergency.</li>
+                                        <li>To check the automatic logoff capability in the system.</li>
+                                        <li>To check encryption and decryption mechanism implemented to prevent access to EPHI by persons or software programs that have not been granted access to rights.</li>
+                                        <li>To check the proper transmission of EPHI data to correct covered entities or business associates.</li>
+                                        <li>To check the audit control mechanisms implemented to record and examine activity in information systems that contain or use EPHI.</li>
+                                        <li>To check functions or process implemented to automatically check the data integrity such as check sum verifications or digital signatures.</li>
+                                        <li>To check the authentication and level of authentication mechanism implemented in the system.</li>
+                                        <li>To ensure appropriate security measures are implemented to protect EPHI during transmission.</li>
+                                        <li>To check encryption and decryption mechanism implemented to protect EPHI during transmission.</li>
+                                   </ol>
+                              </div>
+
+                         </div>
+                    </div>
+
+
+ </div>
+  </div>
+</div>
